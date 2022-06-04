@@ -13,4 +13,4 @@ No programming experience
 ### Education:
 No programmer education
 ### English:
-A2
+A2 (learning)
