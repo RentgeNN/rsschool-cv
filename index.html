@@ -1,32 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" href="style.css">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Pavel Syty</title>
-    
-    
 </head>
 <body>
-    <header>
-        <img class="avatar" d src="avatar.jpeg" alt="avatar">
+    <header class="container header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+          </nav>
+    <div class="info">
+        <img class="avatar" src="avatar.jpeg" alt="avatar">
         <h1>
-            Pavel Syty
+           Hello, i am Pavel Syty. 
+           And I'm a front end developer student.
         </h1>
+    </div>
+    </header>
+    <main class="container main">
+        <div class="about" id="about">
         <h2>
             About me
         </h2>
-         
+         <hr>
+         <p>
+            I have no special education in programming. 
+        </p>
+        <p>
+            But I want to learn front-end development and layout of websites.
+        </p>
+    </div>
+    <div class="education" id="education">
+        <h2>Education</h2>
+        <hr>
+        <p>
+            I am currently taking courses at The Rolling Scopes School
+        </p>
+    </div>
+    <div class="skills" id="skills">
+        <h2>
+            Skills:
+        </h2>
+        <hr>
+        <ul>
+            <li>Html a little</li>
+            <li>CSS a little</li>
+            <li>layout a little</li>
+        </ul>
 
-
-
-    </header>
-    <main>
+    </div>
 
     </main>
-    <footer>
+    <footer class="container footer">
+       <div class="footer-info">
+
+       </div>
 
     </footer>
 </body>

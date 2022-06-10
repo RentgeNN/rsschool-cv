@@ -1,10 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
 body {
+    background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .avatar {
-    
-    width: 60%;
+    object-fit: cover;
+    box-shadow: -14px 11px 14px  rgba(0, 0, 0, 25);
+    width: 15%;
+    height: auto;
     border-radius: 8%;
-    
+}
+p {
+    font-weight: bolder;
+}
+ 
+ .info{
+    background-color: beige;
+    height: 200px;
+    display: flex;
+}
+.nav-list {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: beige;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+  h1{
+    margin: 20px;
+  }
+  .about{
+    margin-top: 150px;
+    background-color: azure;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+  }
+  @media (max-width: 768px) {
+ .info {display: block;
+       text-align: center;
+       width: 100%;
     }
+  }
+  .education{
+    background-color: rgb(214, 161, 161);
+    margin-top: 150px;
+  }
+  ul{
+    font-weight: bolder;
+  }
+  .skills{
+    margin-top: 150px;
+    background-color: rgb(192, 171, 212);
+  }
